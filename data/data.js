@@ -1,7 +1,7 @@
 const { MongoClient } = require('mongodb');
-
+const config = require('../config');
 const dbName = 'tsahighscore';
-const url = 'mongodb://tsahighscore:Ro01ES6~L8m~@den1.mongo1.gear.host:27001/tsahighscore';
+const url = config.database.toString();
 
 const client = new MongoClient(url, {
   useUnifiedTopology: true

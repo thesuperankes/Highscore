@@ -7,7 +7,7 @@ routes.get('/Login',(req,res)=>{
         message: '',
         data:{}
     };
-    res.send(message);
+    res.send(response);
 });
 
 routes.get('/Register',(req,res)=>{
@@ -15,7 +15,7 @@ routes.get('/Register',(req,res)=>{
         message: '',
         data:{}
     };
-    res.send(message);
+    res.send(response);
 });
 
 routes.get('/Recover',(req,res)=>{
@@ -23,7 +23,7 @@ routes.get('/Recover',(req,res)=>{
         message: '',
         data:{}
     };
-    res.send(message);
+    res.send(response);
 });
 
 module.exports = routes;

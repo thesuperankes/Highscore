@@ -7,7 +7,7 @@ routes.get('/Insert',(req,res)=>{
         message: '',
         data:{}
     };
-    res.send(message);
+    res.send(response);
 });
 
 routes.get('/Delete',(req,res)=>{
@@ -15,7 +15,7 @@ routes.get('/Delete',(req,res)=>{
         message: '',
         data:{}
     };
-    res.send(message);
+    res.send(response);
 });
 
 routes.get('/GetByQuery',(req,res)=>{
@@ -23,7 +23,7 @@ routes.get('/GetByQuery',(req,res)=>{
         message: '',
         data:{}
     };
-    res.send(message);
+    res.send(response);
 });
 
 routes.get('/GetLastest',(req,res)=>{
@@ -31,7 +31,7 @@ routes.get('/GetLastest',(req,res)=>{
         message: '',
         data:{}
     };
-    res.send(message);
+    res.send(response);
 });
 
 module.exports = routes;

@@ -7,7 +7,7 @@ routes.get('/Create',(req,res)=>{
         message: '',
         data:{}
     };
-    res.send(message);
+    res.send(response);
 });
 
 routes.get('/Update',(req,res)=>{
@@ -15,7 +15,7 @@ routes.get('/Update',(req,res)=>{
         message: '',
         data:{}
     };
-    res.send(message);
+    res.send(response);
 });
 
 routes.get('/Delete',(req,res)=>{
@@ -23,7 +23,7 @@ routes.get('/Delete',(req,res)=>{
         message: '',
         data:{}
     };
-    res.send(message);
+    res.send(response);
 });
 
 routes.get('/GetByQuery',(req,res)=>{
@@ -31,7 +31,7 @@ routes.get('/GetByQuery',(req,res)=>{
         message: '',
         data:{}
     };
-    res.send(message);
+    res.send(response);
 });
 
 routes.get('/GetLastest',(req,res)=>{
@@ -39,7 +39,7 @@ routes.get('/GetLastest',(req,res)=>{
         message: '',
         data:{}
     };
-    res.send(message);
+    res.send(response);
 });
 
 module.exports = routes;
